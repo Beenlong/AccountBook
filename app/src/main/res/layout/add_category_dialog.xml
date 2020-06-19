@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/category_add_name"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/category_add_info"
+        android:minHeight="40dp"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="230dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_income"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="收入"
+            android:textColor="#555"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_cost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="支出"
+            android:textColor="#555"
+            android:textSize="18sp" />
+    </RadioGroup>
+</LinearLayout>

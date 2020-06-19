@@ -1,3 +1,29 @@
 <resources>
-    <string name="app_name">Account Book</string>
+    <string name="app_name">小账本</string>
+    <string name="entry_add_category">类别:</string>
+    <string name="entry_add_add">添加</string>
+    <string name="entry_add_cancel">取消</string>
+    <string name="title_back">返回</string>
+    <string name="entry_add_title">添加记录</string>
+    <string name="entry_add_category_add">+ 管理类别</string>
+    <string name="Entry_add_add">添加</string>
+    <string name="entry_add_info">详情</string>
+    <string name="mainpage_addentry">+ 添加纪录</string>
+    <string name="mainpage_incom">收入</string>
+    <string name="income_cost">支出</string>
+    <string name="entry_add_income">收入</string>
+    <string name="entry_add_cost">支出</string>
+    <string name="entry_add_time">时间:</string>
+    <string name="category_manage_title">分类管理</string>
+    <string name="categorylist_header">＋ 添加新的类别</string>
+    <string name="grouplist_header">＋ 添加新的分组</string>
+    <string name="group_add_income">收入</string>
+    <string name="group_add_cost">支出</string>
+    <string name="group_add_name">分组</string>
+    <string name="group_add_info">详情</string>
+    <string name="group_add_dialog_title">添加分组</string>
+    <string name="category_add_name">分类</string>
+    <string name="category_add_info">详情</string>
+    <string name="category_add_dialog_title">添加分组</string>
+    <string name="pattern">yyyy-MM-dd HH:mm</string>
 </resources>
